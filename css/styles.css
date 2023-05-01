@@ -1,0 +1,130 @@
+#title{
+    background: #ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+.h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.nav-link { 
+    color: #fff;
+    font-weight: 100;
+    font-family: 'Montserrat-light', sans-serif;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    padding: 0 12px;
+}
+.navbar-brand{
+    color: #fff;
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.apple{
+    margin: 3% 5% 3% 0%;
+}
+.phone{
+    width: 60%;
+    transform: rotate(24deg);
+    position: absolute; 
+    right: 30%; 
+}
+#features{
+    padding: 7% 15%;
+    position: relative;
+    background: #fff;
+}
+.fet-col{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family:'Montserrat' ;
+    font-weight: bold;
+}
+h2{
+    font-family:'Montserrat' ;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+p{
+    color: #8f8f8f;
+}
+.icon{
+    color: #ef8172;
+    padding-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.doggie{
+    border-radius: 100%;
+    width: 12%;
+    margin: 20px;
+}
+.press-img{
+    width: 12%;
+    margin: 20px 20px 50px;
+}
+#press{
+    text-align: center;
+    background-color: #ef8172; 
+    padding-bottom: 50px;
+}
+
+#carousel-Testimonial{
+    padding: 7% 15%;
+}
+
+#pricing{
+    padding: 100px;
+    text-align: center ;
+}
+.price-col{
+    padding: 2% 3%;
+}
+
+#cta{
+    background: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+.h3-bot{
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px;
+    font-size: 50px;
+}
+
+.bot-brand{
+    padding: 15px;
+}
+
+#footer{
+    text-align: center;
+    margin: auto;
+    padding: 100px;
+    /* font-size: 20px; */
+}
+@media (max-width:1028px){
+    .phone{
+        position: static;
+        transform: rotate(0); 
+    }
+    #title{
+        text-align: center;
+    }
+}
